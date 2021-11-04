@@ -12,6 +12,7 @@ body
 .Container
 {
   width: 25rem;
+  height:48rem;
   background-color:white;
   margin-bottom:2rem;
   border-radius:15px;
@@ -31,6 +32,18 @@ body
 {
   width:22rem;
   text-align: justify;
+}
+.count
+{
+  display: flex;
+  gap:1rem;
+  
+}
+.count>button
+{
+  border:none;
+  margin-top:10px;
+  background-color: white;
 }
 .Poster
 {
