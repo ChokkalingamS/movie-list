@@ -44,7 +44,7 @@ function Movie(props)
     <p>Name   : {name}</p>
     <p>Cast   : {Hero},{Villain}</p>
     <p>Rating :<span  style={color}>{Rating}</span></p>
-    <button onClick={()=>{(content=="block")?setContent("none"):setContent("block");(visibility=="Hide")?setVisibility("Show"):setVisibility("Hide")}}>{visibility} Description</button>
+    <button onClick={()=>{(content==="block")?setContent("none"):setContent("block");(visibility==="Hide")?setVisibility("Show"):setVisibility("Hide")}}>{visibility} Description</button>
     <p className="Summary" style={description}>Summary : {Summary}</p>
     <Counter/>
     </div>
